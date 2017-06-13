@@ -32,3 +32,11 @@ body{
 nav a{
 	text-decoration: none;
 }
+
+h1{
+	text-align: center;
+	background-image: url("../images/nyc.jpeg");
+	background-position: cover;
+	padding: 100px 20px;
+	color: white;
+}
