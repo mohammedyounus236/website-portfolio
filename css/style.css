@@ -8,10 +8,13 @@ body{
 
 .navbar{
 	display:flex;
-	font-size: 30px;
 	padding: 5px 20px;
-
 }
+
+.brand-link{
+	font-size: 30px;
+}
+
 .nav-toggle{
 	margin-left:auto;
 	cursor: pointer;
@@ -19,4 +22,13 @@ body{
 
 .nav-list-collapsed{
 	display:none;
+}
+
+.nav-list{
+	text-align: right;
+	list-style: none;
+}
+
+nav a{
+	text-decoration: none;
 }
